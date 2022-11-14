@@ -1,6 +1,6 @@
 ---
 title: Group array into object
-tags: array,object
+tags: array,object..
 expertise: intermediate
 cover: blog_images/baloons-field.jpg
 firstSeen: 2017-12-21T00:55:18+02:00
@@ -19,6 +19,6 @@ const zipObject = (props, values) =>
 ```
 
 ```js
-zipObject(['a', 'b', 'c'], [1, 2]); // {a: 1, b: 2, c: undefined}
-zipObject(['a', 'b'], [1, 2, 3]); // {a: 1, b: 2}
+zipObject(["a", "b", "c"], [1, 2]); // {a: 1, b: 2, c: undefined}
+zipObject(["a", "b"], [1, 2, 3]); // {a: 1, b: 2}
 ```
